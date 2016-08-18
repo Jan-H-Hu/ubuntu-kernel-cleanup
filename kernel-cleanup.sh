@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# This script cleans up the boot partition from unused header and image libraries
-# !!! RUN THIS AFTER A REBOOT !!! if you've done an upgrade
+# This script purges unused kernel header and image packages
+# !!! RUN THIS AFTER A REBOOT !!! if you've just done an upgrade
 
 KERNEL_RELEASE=`uname -r`
 echo "current kernel release $KERNEL_RELEASE"
